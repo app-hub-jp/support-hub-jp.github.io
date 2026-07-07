@@ -120,13 +120,14 @@ h2 {
 }
 
 .policy-hero .eyebrow {
+  font-size: 14px;
   text-transform: none;
 }
 
 .language-label {
   margin: 0 0 16px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -134,10 +135,6 @@ h2 {
 
 .section-start {
   margin-bottom: 16px;
-}
-
-.policy-subtitle {
-  margin: 0 0 16px;
 }
 
 .app-list {
