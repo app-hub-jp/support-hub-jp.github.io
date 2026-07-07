@@ -121,6 +121,11 @@ h3 {
   line-height: 1;
 }
 
+.apps-page h1 {
+  font-size: 56px;
+  line-height: 1;
+}
+
 .policy-hero .eyebrow {
   font-size: 14px;
   text-transform: none;
@@ -148,46 +153,26 @@ h3 {
 }
 
 .app-link {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  min-height: 80px;
-  padding: 18px 20px;
+  padding: 20px;
   border: 1px solid var(--muted);
   border-radius: 8px;
   background: var(--bg);
   color: var(--text);
-  text-decoration: none;
 }
 
-.app-link span:first-of-type {
-  flex: 1;
+.app-link h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
 }
 
-.app-icon,
-.hero-icon {
-  display: block;
-  width: 56px;
-  height: 56px;
-  border-radius: 14px;
-}
-
-.hero-icon {
-  margin-bottom: 24px;
-}
-
-.app-link strong,
-.app-link small {
-  display: block;
-}
-
-.app-link strong {
-  font-size: 22px;
-}
-
-.app-link small,
+.app-link p,
 .updated {
   color: var(--muted);
+}
+
+.app-link p {
+  margin: 0;
+  font-size: 16px;
 }
 
 .updated {
