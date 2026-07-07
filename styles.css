@@ -37,6 +37,10 @@ a {
   text-underline-offset: 0.18em;
 }
 
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
 .page {
   width: min(720px, calc(100% - 40px));
   margin: 0 auto;
@@ -86,22 +90,46 @@ h2 {
 }
 
 .content {
-  padding-top: 8px;
+  padding-top: 16px;
   font-size: 16px;
+  line-height: 1.65;
 }
 
 .content ul {
+  margin: 16px 0 24px;
   padding-left: 22px;
 }
 
 .content li + li {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .content hr {
-  margin: 44px 0 36px;
+  margin: 48px 0 40px;
   border: 0;
   border-top: 1px solid var(--line);
+}
+
+.policy-hero {
+  padding-bottom: 24px;
+}
+
+.policy-hero h1 {
+  font-size: clamp(36px, 7vw, 56px);
+  line-height: 1;
+}
+
+.policy-hero .eyebrow {
+  text-transform: none;
+}
+
+.language-label {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .app-list {
@@ -152,6 +180,6 @@ h2 {
 }
 
 .updated {
-  margin-top: 36px;
+  margin-top: 32px;
   font-size: 14px;
 }
