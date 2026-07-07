@@ -153,25 +153,32 @@ h3 {
   padding-top: 28px;
 }
 
-.app-link {
-  padding: 20px;
-  border: 1px solid var(--muted);
-  border-radius: 8px;
-  background: var(--bg);
-  color: var(--text);
+.app-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
-.app-link h2 {
+.generic-app-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+  border: 1px solid var(--muted);
+  border-radius: 10px;
+}
+
+.app-item h2 {
   margin: 0 0 8px;
   font-size: 20px;
 }
 
-.app-link p,
+.app-item p,
 .updated {
   color: var(--muted);
 }
 
-.app-link p {
+.app-item p {
   margin: 0;
   font-size: 16px;
 }
